@@ -1,0 +1,133 @@
+/* Fontes Utilizadas */
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Consulta Rápida - Fontes */
+
+/* font-family: 'Crimson Text', serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'PT Mono', monospace; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "PT Mono", monospace;
+}
+
+h2 {
+  font-family: "PT Mono", monospace;
+}
+
+h3 {
+  font-family: "PT Mono", monospace;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #001d2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+main {
+  margin: 30px;
+  padding: 20px;
+  background-color: #f5f2ed;
+  width: 1000px;
+  height: 70vh;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#frase {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#frase * {
+  padding: 10px;
+}
+
+div#dados * {
+  margin: 8px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button {
+  padding: 10px;
+  font-size: large;
+  font-family: "Poppins", sans-serif;
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  border: 0;
+  background-color: #f5007b;
+  cursor: pointer;
+  transition: 0.8s ease-in-out;
+}
+
+button:hover {
+  width: 200px;
+  height: 80px;
+  transition: 1s ease-in-out;
+}
+
+/* Removendo setas do input number */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+section#res {
+  margin-top: 20px;
+  width: 70%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10vh;
+  color: white;
+}
