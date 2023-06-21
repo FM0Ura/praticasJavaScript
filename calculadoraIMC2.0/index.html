@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC Online Gratuito</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header><h1>Calculadora de IMC</h1></header>
+    <main>
+      <section id="frase">
+        <h2>Gostaria de saber qual o seu IMC?</h2>
+        <p>Basta adicionar os dados e você saberá!</p>
+      </section>
+      <div id="dados">
+        <p>
+          Digite seu<strong>peso</strong>em KG:
+          <input type="number" id="peso" />
+        </p>
+        <p>
+          Digite sua<strong>altura</strong>em metros:
+          <input type="number" id="altura" />
+        </p>
+      </div>
+      <button onclick="calcularIMC(altura, peso)">Calcular</button>
+      <section id="res"></section>
+    </main>
+    <script src="index.js"></script>
+    <footer><h1>&copy; Created by Felipe Moura - 2023</h1></footer>
+  </body>
+</html>
