@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B.I.N.G.O Official</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bingo Online Official</h1>
+    </header>
+    <main>
+      <section id="area_cartelas">
+        <div id="cartelas_header">
+          <h2>Cartelas:</h2>
+          <button onclick="desenharTabela()">Gere uma cartela...</button>
+          <button id="btnReiniciar" onclick="reiniciarJogo()">Reiniciar</button>
+        </div>
+        <div id="cartelas"></div>
+      </section>
+      <section id="area_numerosSelecionados">
+        <div id="area_numerosSelecionados_header">
+          <h2>Números Selecionados</h2>
+          <button onclick="seletorNumeros()">JOGAR!</button>
+        </div>
+        <div id="numerosSelecionados"></div>
+      </section>
+    </main>
+    <footer>
+      <h4>Developed by Felipe Angelo - 06,2023</h4>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
